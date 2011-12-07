@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5587E01490060C0081311F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5587DF1490060C0081311F /* UIKit.framework */; };
+		FC5587E21490060C0081311F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5587E11490060C0081311F /* Foundation.framework */; };
+		FC5587E41490060C0081311F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5587E31490060C0081311F /* CoreGraphics.framework */; };
+		FC5587EA1490060C0081311F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC5587E81490060C0081311F /* InfoPlist.strings */; };
+		FC5587EC1490060C0081311F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5587EB1490060C0081311F /* main.m */; };
+		FC5587F01490060C0081311F /* MorseCodeTyperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5587EF1490060C0081311F /* MorseCodeTyperAppDelegate.m */; };
+		FC5587F31490060C0081311F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5587F11490060C0081311F /* MainStoryboard.storyboard */; };
+		FC5587F61490060C0081311F /* MorseCodeTyperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5587F51490060C0081311F /* MorseCodeTyperViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC5587DB1490060C0081311F /* MorseCodeTyper-DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MorseCodeTyper-DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5587DF1490060C0081311F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC5587E11490060C0081311F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC5587E31490060C0081311F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC5587E71490060C0081311F /* MorseCodeTyper-DEMO-Info.plist */ = {isa = PBXFileReference; path = "MorseCodeTyper-DEMO-Info.plist"; sourceTree = "<group>"; };
+		FC5587E91490060C0081311F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC5587EB1490060C0081311F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC5587ED1490060C0081311F /* MorseCodeTyper-DEMO-Prefix.pch */ = {isa = PBXFileReference; path = "MorseCodeTyper-DEMO-Prefix.pch"; sourceTree = "<group>"; };
+		FC5587EE1490060C0081311F /* MorseCodeTyperAppDelegate.h */ = {isa = PBXFileReference; path = MorseCodeTyperAppDelegate.h; sourceTree = "<group>"; };
+		FC5587EF1490060C0081311F /* MorseCodeTyperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTyperAppDelegate.m; sourceTree = "<group>"; };
+		FC5587F21490060C0081311F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FC5587F41490060C0081311F /* MorseCodeTyperViewController.h */ = {isa = PBXFileReference; path = MorseCodeTyperViewController.h; sourceTree = "<group>"; };
+		FC5587F51490060C0081311F /* MorseCodeTyperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTyperViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5587D81490060C0081311F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5587E01490060C0081311F /* UIKit.framework in Frameworks */,
+				FC5587E21490060C0081311F /* Foundation.framework in Frameworks */,
+				FC5587E41490060C0081311F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5587D01490060C0081311F = {
+			isa = PBXGroup;
+			children = (
+				FC5587E51490060C0081311F /* MorseCodeTyper-DEMO */,
+				FC5587DE1490060C0081311F /* Frameworks */,
+				FC5587DC1490060C0081311F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5587DC1490060C0081311F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5587DB1490060C0081311F /* MorseCodeTyper-DEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5587DE1490060C0081311F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5587DF1490060C0081311F /* UIKit.framework */,
+				FC5587E11490060C0081311F /* Foundation.framework */,
+				FC5587E31490060C0081311F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5587E51490060C0081311F /* MorseCodeTyper-DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				FC5587EE1490060C0081311F /* MorseCodeTyperAppDelegate.h */,
+				FC5587EF1490060C0081311F /* MorseCodeTyperAppDelegate.m */,
+				FC5587F11490060C0081311F /* MainStoryboard.storyboard */,
+				FC5587F41490060C0081311F /* MorseCodeTyperViewController.h */,
+				FC5587F51490060C0081311F /* MorseCodeTyperViewController.m */,
+				FC5587E61490060C0081311F /* Supporting Files */,
+			);
+			path = "MorseCodeTyper-DEMO";
+			sourceTree = "<group>";
+		};
+		FC5587E61490060C0081311F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5587E71490060C0081311F /* MorseCodeTyper-DEMO-Info.plist */,
+				FC5587E81490060C0081311F /* InfoPlist.strings */,
+				FC5587EB1490060C0081311F /* main.m */,
+				FC5587ED1490060C0081311F /* MorseCodeTyper-DEMO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5587DA1490060C0081311F /* MorseCodeTyper-DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5587F91490060C0081311F /* Build configuration list for PBXNativeTarget "MorseCodeTyper-DEMO" */;
+			buildPhases = (
+				FC5587D71490060C0081311F /* Sources */,
+				FC5587D81490060C0081311F /* Frameworks */,
+				FC5587D91490060C0081311F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MorseCodeTyper-DEMO";
+			productName = "MorseCodeTyper-DEMO";
+			productReference = FC5587DB1490060C0081311F /* MorseCodeTyper-DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5587D21490060C0081311F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FC5587D51490060C0081311F /* Build configuration list for PBXProject "MorseCodeTyper-DEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC5587D01490060C0081311F;
+			productRefGroup = FC5587DC1490060C0081311F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5587DA1490060C0081311F /* MorseCodeTyper-DEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5587D91490060C0081311F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5587EA1490060C0081311F /* InfoPlist.strings in Resources */,
+				FC5587F31490060C0081311F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5587D71490060C0081311F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5587EC1490060C0081311F /* main.m in Sources */,
+				FC5587F01490060C0081311F /* MorseCodeTyperAppDelegate.m in Sources */,
+				FC5587F61490060C0081311F /* MorseCodeTyperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC5587E81490060C0081311F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5587E91490060C0081311F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC5587F11490060C0081311F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5587F21490060C0081311F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5587F71490060C0081311F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC5587F81490060C0081311F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5587FA1490060C0081311F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorseCodeTyper-DEMO/MorseCodeTyper-DEMO-Prefix.pch";
+				INFOPLIST_FILE = "MorseCodeTyper-DEMO/MorseCodeTyper-DEMO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC5587FB1490060C0081311F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorseCodeTyper-DEMO/MorseCodeTyper-DEMO-Prefix.pch";
+				INFOPLIST_FILE = "MorseCodeTyper-DEMO/MorseCodeTyper-DEMO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5587D51490060C0081311F /* Build configuration list for PBXProject "MorseCodeTyper-DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5587F71490060C0081311F /* Debug */,
+				FC5587F81490060C0081311F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5587F91490060C0081311F /* Build configuration list for PBXNativeTarget "MorseCodeTyper-DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5587FA1490060C0081311F /* Debug */,
+				FC5587FB1490060C0081311F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5587D21490060C0081311F /* Project object */;
+}
