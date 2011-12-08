@@ -7,54 +7,35 @@
 //
 
 #import "MorseCodeTyperViewController.h"
+#import "TapModel.h"
+
+@interface MorseCodeTyperViewController()
+@property (nonatomic, strong) TapModel *taps;
+@end
 
 @implementation MorseCodeTyperViewController
+@synthesize codeDisplay = _codeDisplay;
+@synthesize textDisplay = _textDisplay;
+@synthesize taps = _taps;
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+- (TapModel *)taps {
+    if (!_taps) _taps = [[TapModel alloc] init];
+    return _taps;
 }
 
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)tapStart {
+    [self.taps tapStart];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+- (IBAction)tapStop {
+    [self.taps tapEnd];
+    self.codeDisplay.text = [self.taps displayMorse];
+    self.textDisplay.text = [self.taps displayText];
 }
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+- (IBAction)tapReset {
+    [self.taps reset];
+    self.codeDisplay.text = @"";
+    self.textDisplay.text = @"";
 }
 
 @end

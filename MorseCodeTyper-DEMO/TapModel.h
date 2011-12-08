@@ -10,4 +10,13 @@
 
 @interface TapModel : NSObject
 
++ (NSString *)morseFromText:(NSString *)text;
++ (NSString *)textFromMorse:(NSString *)morse;
+
+- (void)tapStart;
+- (void)tapEnd;
+- (void)reset;
+- (NSString *)displayMorse;
+- (NSString *)displayText;
+
 @end

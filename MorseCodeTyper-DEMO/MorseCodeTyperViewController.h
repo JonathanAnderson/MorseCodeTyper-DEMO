@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface MorseCodeTyperViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *codeDisplay;
+@property (weak, nonatomic) IBOutlet UILabel *textDisplay;
 @end

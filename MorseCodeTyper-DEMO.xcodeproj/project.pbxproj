@@ -15,6 +15,7 @@
 		FC5587F01490060C0081311F /* MorseCodeTyperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5587EF1490060C0081311F /* MorseCodeTyperAppDelegate.m */; };
 		FC5587F31490060C0081311F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5587F11490060C0081311F /* MainStoryboard.storyboard */; };
 		FC5587F61490060C0081311F /* MorseCodeTyperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5587F51490060C0081311F /* MorseCodeTyperViewController.m */; };
+		FC5588011490087D0081311F /* TapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5588001490087D0081311F /* TapModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		FC5587DF1490060C0081311F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC5587E11490060C0081311F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC5587E31490060C0081311F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FC5587E71490060C0081311F /* MorseCodeTyper-DEMO-Info.plist */ = {isa = PBXFileReference; path = "MorseCodeTyper-DEMO-Info.plist"; sourceTree = "<group>"; };
+		FC5587E71490060C0081311F /* MorseCodeTyper-DEMO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MorseCodeTyper-DEMO-Info.plist"; sourceTree = "<group>"; };
 		FC5587E91490060C0081311F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC5587EB1490060C0081311F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC5587ED1490060C0081311F /* MorseCodeTyper-DEMO-Prefix.pch */ = {isa = PBXFileReference; path = "MorseCodeTyper-DEMO-Prefix.pch"; sourceTree = "<group>"; };
-		FC5587EE1490060C0081311F /* MorseCodeTyperAppDelegate.h */ = {isa = PBXFileReference; path = MorseCodeTyperAppDelegate.h; sourceTree = "<group>"; };
+		FC5587ED1490060C0081311F /* MorseCodeTyper-DEMO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MorseCodeTyper-DEMO-Prefix.pch"; sourceTree = "<group>"; };
+		FC5587EE1490060C0081311F /* MorseCodeTyperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorseCodeTyperAppDelegate.h; sourceTree = "<group>"; };
 		FC5587EF1490060C0081311F /* MorseCodeTyperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTyperAppDelegate.m; sourceTree = "<group>"; };
 		FC5587F21490060C0081311F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FC5587F41490060C0081311F /* MorseCodeTyperViewController.h */ = {isa = PBXFileReference; path = MorseCodeTyperViewController.h; sourceTree = "<group>"; };
+		FC5587F41490060C0081311F /* MorseCodeTyperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorseCodeTyperViewController.h; sourceTree = "<group>"; };
 		FC5587F51490060C0081311F /* MorseCodeTyperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTyperViewController.m; sourceTree = "<group>"; };
+		FC5587FF1490087D0081311F /* TapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapModel.h; sourceTree = "<group>"; };
+		FC5588001490087D0081311F /* TapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				FC5587EE1490060C0081311F /* MorseCodeTyperAppDelegate.h */,
 				FC5587EF1490060C0081311F /* MorseCodeTyperAppDelegate.m */,
 				FC5587F11490060C0081311F /* MainStoryboard.storyboard */,
+				FC5587FF1490087D0081311F /* TapModel.h */,
+				FC5588001490087D0081311F /* TapModel.m */,
 				FC5587F41490060C0081311F /* MorseCodeTyperViewController.h */,
 				FC5587F51490060C0081311F /* MorseCodeTyperViewController.m */,
 				FC5587E61490060C0081311F /* Supporting Files */,
@@ -163,6 +168,7 @@
 				FC5587EC1490060C0081311F /* main.m in Sources */,
 				FC5587F01490060C0081311F /* MorseCodeTyperAppDelegate.m in Sources */,
 				FC5587F61490060C0081311F /* MorseCodeTyperViewController.m in Sources */,
+				FC5588011490087D0081311F /* TapModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
